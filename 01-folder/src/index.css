@@ -5,7 +5,7 @@
  * @Organization: Engineering Services International
  * @Date:   2025-10-30 11:52:13
  * @Last Modified by:   Deep Shah
- * @Last Modified time: 2025-10-30 12:04:44
+ * @Last Modified time: 2025-10-30 13:25:59
  */
 
  :root {
@@ -64,6 +64,11 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.car{
+  background-color: pink;
+  border-radius: 10px;
+  margin: 20px;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
