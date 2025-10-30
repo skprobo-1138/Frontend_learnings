@@ -1,0 +1,61 @@
+/**
+ * @Author: Deep Shah
+ * @Email: shahdeep966@gmail.com
+ * @website: http://deepshah.linkpc.net
+ * @Organization: Engineering Services International
+ * @Date:   2025-10-30 14:43:01
+ * @Last Modified by:   Deep Shah
+ * @Last Modified time: 2025-10-30 14:46:32
+ */
+
+ .user-card {
+  width: 260px;
+  padding: 16px;
+  text-align: center;
+  background: white;
+  border-radius: 12px;
+  border-width:  12px;
+  /* border-color: ; */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 12px auto;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect */
+.user-card:hover {
+  transform: scale(1.03);
+}
+
+.user-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-name {
+  margin: 10px 0 6px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.user-bio {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 14px;
+  padding: 0 6px;
+}
+
+.user-btn {
+  padding: 8px 14px;
+  background: #4e73df;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.user-btn:hover {
+  background: #3a5bc7;
+}

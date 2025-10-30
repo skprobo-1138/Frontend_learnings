@@ -1,0 +1,131 @@
+/**
+ * @Author: Deep Shah
+ * @Email: shahdeep966@gmail.com
+ * @website: http://deepshah.linkpc.net
+ * @Organization: Engineering Services International
+ * @Date:   2025-10-30 15:12:10
+ * @Last Modified by:   Deep Shah
+ * @Last Modified time: 2025-10-30 15:47:49
+ */
+.prof-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 25px;
+  justify-content: center;
+}
+
+ .prof-card {
+  width: 310px;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.14);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  font-family: "Inter", sans-serif;
+}
+
+.prof-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.22);
+}
+
+.prof-img {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+  border: 3px solid #2563eb;
+}
+
+.prof-name {
+  font-size: 1.28rem;
+  font-weight: 700;
+  margin: 6px 0;
+}
+
+.prof-role {
+  font-size: 1rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.prof-spec {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 12px;
+}
+
+/* Tags */
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  margin-bottom: 12px;
+  color: #555;
+}
+
+.tag {
+  background: #eef2ff;
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #c7d2fe;
+}
+
+/* Bio toggle */
+.toggle-bio-btn {
+  border: none;
+  background: none;
+  color: #2563eb;
+  cursor: pointer;
+  margin-bottom: 8px;
+  font-size: 0.85rem;
+}
+
+.prof-bio {
+  font-size: 0.85rem;
+  color: #555;
+  padding: 8px;
+  border-radius: 6px;
+  background: #f8f9ff;
+  margin-bottom: 12px;
+}
+
+/* Buttons */
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.email-btn,
+.view-btn,
+.meet-btn {
+  padding: 8px;
+  flex: 1;
+  font-size: 0.8rem;
+  margin: 0 4px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.email-btn { background: #2563eb; }
+.view-btn { background: #16a34a; text-align: center; text-decoration: none; }
+.meet-btn { background: #dc2626; text-align: center; text-decoration: none; }
+
+.email-btn:hover { background: #1e4fcc; }
+.view-btn:hover { background: #12823a; }
+.meet-btn:hover { background: #b31f1f; }
+
+/* Social links */
+.social-links a {
+  margin: 0 6px;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
