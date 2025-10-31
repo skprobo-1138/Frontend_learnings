@@ -1,0 +1,60 @@
+/**
+ * @Author: Deep Shah
+ * @Email: shahdeep966@gmail.com
+ * @website: http://deepshah.linkpc.net
+ * @Organization: Engineering Services International
+ * @Date:   2025-10-31 18:26:14
+ * @Last Modified by:   Deep Shah
+ * @Last Modified time: 2025-10-31 18:42:26
+ */
+
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-background: #05070F; /* darker, spacey tone */
+    --color-primary: #00BFFF;
+    --color-secondary: #00FFFF;
+    --color-accent: #FF005C; /* a little “Among Us” magenta */
+    --color-text: #E0E0E0;
+    --color-text-muted: #A0AEC0;
+  }
+
+  body {
+    background: radial-gradient(circle at 20% 20%, #0A0F1E 0%, #05070F 80%);
+    color: var(--color-text);
+    font-family: "Orbitron", "Rajdhani", sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+
+@layer utilities {
+  .shadow-glow-blue {
+    box-shadow: 0 0 10px var(--color-primary), 0 0 20px var(--color-secondary);
+  }
+
+  .bg-accent-gradient {
+    background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+  }
+
+  @keyframes pulse-glow {
+    0% {
+      box-shadow: 0 0 10px var(--color-primary);
+    }
+    100% {
+      box-shadow: 0 0 20px var(--color-secondary);
+    }
+  }
+   .text-glow {
+    text-shadow: 0 0 10px var(--color-primary), 0 0 20px var(--color-secondary);
+    transition: text-shadow 0.3s ease;
+  }
+
+  .text-glow:hover {
+    text-shadow: 0 0 20px var(--color-secondary), 0 0 40px var(--color-accent);
+  }
+  .animate-pulse-glow {
+    animation: pulse-glow 2s infinite alternate;
+  }
+}

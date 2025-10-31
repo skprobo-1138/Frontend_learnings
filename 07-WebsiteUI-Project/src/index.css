@@ -1,0 +1,39 @@
+/**
+ * @Author: Deep Shah
+ * @Email: shahdeep966@gmail.com
+ * @website: http://deepshah.linkpc.net
+ * @Organization: Engineering Services International
+ * @Date:   2025-10-31 16:19:20
+ * @Last Modified by:   Deep Shah
+ * @Last Modified time: 2025-10-31 17:49:43
+ */
+
+ @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Rajdhani:wght@400;600;700&display=swap');
+/* 
+body {
+  background-color: rgb(var(--color-background));
+  color: rgb(var(--color-textPrimary));
+  font-family: 'Orbitron', sans-serif;
+  min-height: 100vh;
+}
+
+/* Glow text */
+/* .glow-text {
+  text-shadow: 0 0 8px rgb(var(--color-primary)), 0 0 16px rgb(var(--color-secondary));
+}
+
+/* Electric button */
+.btn-electric {
+  background-image: linear-gradient(90deg, rgb(var(--color-primary)), rgb(var(--color-secondary)));
+  color: black;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  box-shadow: 0 0 12px rgb(var(--color-primary));
+  transition: all 0.3s ease;
+} */ */
+/* 
+.btn-electric:hover {
+  box-shadow: 0 0 20px rgb(var(--color-secondary));
+  transform: scale(1.05);
+} */
