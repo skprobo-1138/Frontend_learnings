@@ -1,6 +1,12 @@
 {
   "name": "ReactJS",
   "version": "1.0.0",
+   "private": true,
+  "workspaces": [
+    "01-folder",
+    "02-props",
+    "05-css" 
+  ],
   "description": "",
   "main": "index.js",
   "scripts": {

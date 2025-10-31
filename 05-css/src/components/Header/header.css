@@ -1,0 +1,35 @@
+/**
+ * @Author: Deep Shah
+ * @Email: shahdeep966@gmail.com
+ * @website: http://deepshah.linkpc.net
+ * @Organization: Engineering Services International
+ * @Date:   2025-10-31 15:38:47
+ * @Last Modified by:   Deep Shah
+ * @Last Modified time: 2025-10-31 15:45:14
+ */
+
+ .header {
+  background-color: #6d2121;     /* black background */
+  color: #fff;                /* white text */
+  display: flex;              /* align title + nav side by side */
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.header nav a:hover {
+  color: #00bcd4; /* nice cyan accent on hover */
+}

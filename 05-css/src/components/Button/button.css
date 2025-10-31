@@ -1,0 +1,24 @@
+/**
+ * @Author: Deep Shah
+ * @Email: shahdeep966@gmail.com
+ * @website: http://deepshah.linkpc.net
+ * @Organization: Engineering Services International
+ * @Date:   2025-10-31 15:38:55
+ * @Last Modified by:   Deep Shah
+ * @Last Modified time: 2025-10-31 15:39:03
+ */
+
+ .btn {
+  background-color: #000;       /* black background */
+  color: #fff;                  /* white text */
+  padding: 10px 20px;           /* comfortable spacing */
+  border: none;                 /* no border */
+  border-radius: 6px;           /* slightly rounded corners */
+  cursor: pointer;              /* pointer on hover */
+  font-size: 16px;              /* readable size */
+  transition: background 0.3s;  /* smooth hover animation */
+}
+
+.btn:hover {
+  background-color: #333;       /* dark gray on hover */
+}
