@@ -1,4 +1,14 @@
-:root {
+/**
+ * @Author: Deep Shah
+ * @Email: shahdeep966@gmail.com
+ * @website: http://deepshah.linkpc.net
+ * @Organization: Engineering Services International
+ * @Date:   2025-10-30 14:31:24
+ * @Last Modified by:   Deep Shah
+ * @Last Modified time: 2025-10-31 14:57:33
+ */
+
+ :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -12,7 +22,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.btn{
+  
+}
 a {
   font-weight: 500;
   color: #646cff;

@@ -84,7 +84,7 @@ const professors = [
       "AI in Business",
     ],
     image: "data:image/jpeg;base64,...",
-  },
+  },  
 ];
 
 function App() {  
@@ -93,6 +93,7 @@ function App() {
       
       <div className="prof-container">
         {professors.map((prof, index) => (
+          console.log(prof),
           <ProfessorCard key={index} {...prof} />
         ))}
       </div>

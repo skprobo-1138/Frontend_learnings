@@ -1,6 +1,11 @@
 {
   "name": "02-props",
   "private": true,
+   "workspaces": [
+    "01-project",
+    "03-project",
+    "03-project"
+  ],
   "version": "0.0.0",
   "type": "module",
   "scripts": {
